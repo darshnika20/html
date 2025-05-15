@@ -1,0 +1,77 @@
+.a
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: 5px dashed red;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 160px;
+    background-color: rgba(165, 42, 110, 0.196);
+}
+.b
+{
+    padding: 12px;
+    text-align: right;
+    font-size: 20px;
+    border: 5px solid rgba(255, 255, 0, 0.039);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.c
+{
+    padding: 14px;
+    text-align: center;
+    font-size: 23px;
+    border: 5px double rgba(0, 100, 128, 0.032);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 240px;
+    background-color: cyan;
+}
+.d
+{   padding: 16px;
+    text-align: center;
+    font-size: 28px;
+    border: 5px dotted  pink;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 280px;
+    background-color: rgb(128, 128, 128);
+}
+.e
+{
+    padding: 18px;
+    text-align: center;
+    font-size: 33px;
+    border: 5px groove rgb(255, 0, 106);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 320px;
+    background-color: rgb(140, 240, 162);
+}
+.f
+{
+    padding: 20px;
+    text-align: center;
+    font-size: 37px;
+    border: 5px ridge rgb(128, 49, 0);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 360px;
+    background-color: rgb(98, 0, 128);
+}
