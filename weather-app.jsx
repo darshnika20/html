@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+
 const WeatherApp = () => {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-
-  const API_KEY = "YOUR_API_KEY"; // Replace with your OpenWeather API Key
   const BASE_URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
   // Fetch weather data
@@ -29,7 +28,7 @@ const WeatherApp = () => {
 
   return (
     <div style={{ textAlign: "center", maxWidth: "400px", margin: "auto", padding: "20px" }}>
-      <h2>Weather App 🌦</h2>
+      <h2>Weather App </h2>
 
       {/* City Input */}
       <input
